@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+
+# Env & secrets
+.env
+.env.local
+*.env
+
+# AI artifacts
+ai/models/*.onnx
+ai/models/*.pt
+ai/models/*.pth
+ai/models/*.tflite
+ai/dataset/**
+!ai/dataset/README.md
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
